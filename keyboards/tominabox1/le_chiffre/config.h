@@ -16,12 +16,13 @@
 #pragma once
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
-#define LOCKING_SUPPORT_ENABLE
+// #define LOCKING_SUPPORT_ENABLE
 /* Locking resynchronize hack */
-#define LOCKING_RESYNC_ENABLE
+// #define LOCKING_RESYNC_ENABLE
 
 /*
  * WS2812 Underglow Matrix options
  */
 #define RGB_MATRIX_LED_COUNT 11
+
 #define RGB_DISABLE_WHEN_USB_SUSPENDED // turn off effects when suspended
